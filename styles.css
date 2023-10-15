@@ -29,6 +29,10 @@ html {
     width: 100%;
 }
 
+.header__title-mobile{
+    display: none;
+}
+
 .container__left{
     display: flex;
     flex-direction: column;
@@ -43,6 +47,10 @@ html {
     max-width: 20rem;
 }    
 
+.fa-bars{
+    display: none;
+}
+
 .nav{
     padding-left: 2rem;
 }
@@ -54,6 +62,11 @@ html {
     flex-direction: column;
 }
 
+.nav__list-categories{
+    display: flex;
+    align-items: center;
+}
+
 .button{
     background-color: transparent;
     border: 0;
@@ -63,7 +76,7 @@ html {
     gap: 1rem;
     font-weight: bold;
     padding: 1rem;
-    font-size: 1.6rem;
+    font-size: 1.45rem;
     transition: 0.2s ease;
 }
 
@@ -183,4 +196,104 @@ html {
     font-size: 1.8rem;
     font-family: var(--font);
     font-weight: 600;
+}
+
+/* VISTA TABLET */
+
+@media ( 768px <= width <= 990px){
+    .header__left{
+        display: flex;
+        justify-content: center;
+    }
+
+    .container__cards{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .container__right-title{
+        font-size: 3rem;
+    }
+}
+
+/* VISTA Mobile */
+
+@media (width < 767px){
+    .main{
+        grid-template-columns: 1fr 2fr;
+        width: auto;
+    }
+
+    .header__left{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .header__left-img{
+        max-width: 10rem;
+    }
+
+    .nav{
+        padding: 2rem;
+    }
+
+    .button{
+        font-size: 1rem;
+    }
+
+    .button.active {
+        border-radius: 1rem;
+    }
+
+    .active::after, .active::before{
+        display: none;
+    }
+
+    .fa-xmark{
+        font-size: 4rem;
+        color: var(--color-white);
+        padding: 2rem;
+    }
+
+    .header__title-mobile{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 8rem;
+    }
+
+    .header__left-mobile{
+        max-width: 10rem;
+    }
+
+    .fa-bars{
+        display: block;
+        font-size: 4rem;
+        color: var(--color-white);
+    }
+
+    .container__left{
+        justify-content: space-between;
+        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
+        z-index: 90;
+        height: 100vh;
+    }
+
+    .footer__text{
+        padding-bottom: 1rem;
+    }
+
+    .container__right{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container__cards{
+        grid-template-columns: 1fr;
+        width: auto;
+    }
 }
