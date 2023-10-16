@@ -29,7 +29,11 @@ html {
     width: 100%;
 }
 
-.header__title-mobile{
+.container__containers{
+    display: flex;
+}
+
+.header__title-mobile, .button__cerrar{
     display: none;
 }
 
@@ -128,13 +132,11 @@ html {
 }
 
 .container__right{
-    width: 99%;
     background-color: var(--color-white);
     border-top-right-radius: 1rem;
     border-top-left-radius: 1rem;
-    margin-top: 1.2rem;
-    margin-right: 2rem;
-    padding: 3rem;
+    margin-top: 2rem;
+    padding-left: 5rem ;
 }
 
 .container__cards{
@@ -145,7 +147,8 @@ html {
 }
 
 .container__right-title{
-    padding-bottom: 3rem;
+    padding-bottom: 2.5rem;
+    padding-top: 2.5rem;
     font-size: 2.5rem;
     font-family: var(--font);
     color: var(--color-blue-primary);
@@ -219,8 +222,7 @@ html {
 
 @media (width < 767px){
     .main{
-        grid-template-columns: 1fr 2fr;
-        width: auto;
+        grid-template-columns: 1fr;
     }
 
     .header__left{
@@ -233,6 +235,11 @@ html {
 
     .header__left-img{
         max-width: 10rem;
+    }
+
+    .button__cerrar{
+        border: 0;
+        background-color: transparent;
     }
 
     .nav{
@@ -261,11 +268,18 @@ html {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        height: 8rem;
+        background-color: var(--color-blue-primary);
+        width: 100%;
     }
 
     .header__left-mobile{
         max-width: 10rem;
+    }
+
+    .button__abrir{
+        border: 0;
+        background-color: transparent;
+        padding-right: 2rem;
     }
 
     .fa-bars{
@@ -274,15 +288,19 @@ html {
         color: var(--color-white);
     }
 
+    .footer__text{
+        padding-bottom: 1rem;
+    }
+
     .container__left{
         justify-content: space-between;
         box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
-        z-index: 90;
+        z-index: 2;
         height: 100vh;
-    }
-
-    .footer__text{
-        padding-bottom: 1rem;
+        display: none;
+        position: fixed;
+        background-color: var(--color-blue-primary);
+        
     }
 
     .container__right{
@@ -290,6 +308,16 @@ html {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-right: 0;
+        margin-top: 0;
+        padding-left: 0;
+        width: 100%;
+        margin: 1rem;
+    }
+
+    .container__right-title{
+        padding-top: 1em;
+        padding-bottom: 2rem;
     }
 
     .container__cards{
