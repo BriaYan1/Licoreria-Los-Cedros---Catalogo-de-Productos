@@ -9,14 +9,14 @@ const products = [
 
     {
         title: "Cerveza Polar Lata",
-        price: 2,
+        price: 1,
         imagen: '/assets/productos/cervezas/polar-lata.png',
         categoria: "cerveza",
     },
 
     {
         title: "Cerveza Polar Light Lata",
-        price: 2,
+        price: 1,
         imagen: '/assets/productos/cervezas/polar-light-lata.jpg',
         categoria: "cerveza",
     },
@@ -37,14 +37,14 @@ const products = [
 
     //Rones
     {
-        title: "Ron Añejo Carúpano Reserva 6 Especial de 0.750ml",
+        title: "Ron Añejo Carúpano Reserva Especial de 0.750ml",
         price: 9.05,
         imagen: '/assets/productos/rones/añejo-carupano-reserva-6-especial-0.750.jpg',
         categoria: "ron",
     },
 
     {
-        title: "Ron Añejo Carúpano Reserva 12 Exclusiva de 0.750ml",
+        title: "Ron Añejo Carúpano Reserva Exclusiva de 0.750ml",
         price: 15,
         imagen: '/assets/productos/rones/añejo-reserva-exclusiva-carupano-750ml.jpg',
         categoria: "ron",
@@ -271,8 +271,8 @@ function cargarProductos (product) {
                                 <img src="${product.imagen}" alt="${product.title}" class="card__img-img">
                             </div>
                             <div class="card__description">
-                                <p class="card__description-product">${product.title}</p>
-                                <p class="card__description-price">$ ${product.price}</p>
+                                <p class="card__description-product"> <i class="fa-solid fa-star"></i> ${product.title}</p>
+                                <p class="card__description-price">$  ${product.price}</p>
                             </div>
                         </div>
                     `

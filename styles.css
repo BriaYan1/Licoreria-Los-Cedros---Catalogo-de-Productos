@@ -25,8 +25,6 @@ html {
     background-color: var(--color-blue-primary);
     display: grid;
     grid-template-columns: 1fr 2fr;
-    height: 100%;
-    width: 100%;
 }
 
 .container__containers{
@@ -84,6 +82,10 @@ html {
     transition: 0.2s ease;
 }
 
+.button__close{
+    display: none;
+}
+
 .button.active {
     background-color: var(--color-white);
     color: var(--color-blue-primary);
@@ -137,6 +139,7 @@ html {
     border-top-left-radius: 1rem;
     margin-top: 2rem;
     padding-left: 5rem ;
+    padding-bottom: 4rem;
 }
 
 .container__cards{
@@ -201,9 +204,24 @@ html {
     font-weight: 600;
 }
 
+@media ( 901px <= width <= 1200px){
+    .header__left{
+        display: flex;
+        justify-content: center;
+    }
+
+    .container__cards{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .container__right-title{
+        font-size: 3rem;
+    }
+}
+
 /* VISTA TABLET */
 
-@media ( 768px <= width <= 990px){
+@media ( 768px <= width <= 1180px){
     .header__left{
         display: flex;
         justify-content: center;
@@ -240,6 +258,7 @@ html {
     .button__close{
         border: 0;
         background-color: transparent;
+        display: block;
     }
 
     .nav{
@@ -270,6 +289,8 @@ html {
         align-items: center;
         background-color: var(--color-blue-primary);
         width: 100%;
+        position: fixed;
+        z-index: 1;
     }
 
     .header__left-mobile{
@@ -331,6 +352,7 @@ html {
         padding-left: 0;
         width: 100%;
         margin: 1rem;
+        padding-top: 3rem;
     }
 
     .container__right-title{
