@@ -247,7 +247,6 @@ html {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding-top: 1.5rem;
         padding-bottom: 1.5rem;
     }
 
@@ -278,7 +277,7 @@ html {
     }
 
     .fa-xmark{
-        font-size: 4rem;
+        font-size: 5rem;
         color: var(--color-white);
         padding: 2rem;
     }
