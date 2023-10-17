@@ -1,11 +1,11 @@
-openMenu = document.querySelector('#open')
-closeMenu = document.querySelector('#close')
-menu = document.querySelector('#menu')
+const openMenu = document.querySelector('#open');
+const closeMenu = document.querySelector('#close');
+const menu = document.querySelector('#menu');
 
 openMenu.addEventListener('click', () => {
-    menu.classList.add('visible')
-})
+    menu.classList.add('opened');
+});
 
 closeMenu.addEventListener('click', () => {
-    menu.classList.remove('visible')
-})
+    menu.classList.remove('opened');
+});
