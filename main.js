@@ -57,3 +57,23 @@ botonesCategorias.forEach(boton => {
         }
     });
 });
+
+const openMenu = document.querySelector('#open');
+const closeMenu = document.querySelector('#close');
+const menu = document.querySelector('#menu');
+const botones = document.querySelectorAll('.buttons__categories'); // Agrega referencia a los botones de categoría
+
+openMenu.addEventListener('click', () => {
+    menu.classList.add('opened');
+});
+
+closeMenu.addEventListener('click', () => {
+    menu.classList.remove('opened');
+});
+
+botones.forEach(boton => {
+    boton.addEventListener('click', () => {
+        menu.classList.remove('opened');
+        
+    });
+});
