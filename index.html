@@ -24,11 +24,14 @@
                     </header>
                 <nav class="nav">
                     <ul class="nav__list">
-                        <li class="nav__list-categories" ><button class="button active"><i class="fa-solid fa-caret-right"></i>Todos los productos</button></li>
-                        <li class="nav__list-categories"><button class="button"><i class="fa-solid fa-caret-right"></i>Cervezas</button></li>
-                        <li class="nav__list-categories"><button class="button "><i class="fa-solid fa-caret-right"></i>Rones</button></li>
-                        <li class="nav__list-categories"><button class="button"><i class="fa-solid fa-caret-right"></i>Wisky</button></li>
-                        <li class="nav__list-categories"><button class="button"><i class="fa-solid fa-caret-right"></i>Vinos</button></li>
+                        <ul class="nav__list">
+                            <li class="nav__list-categories buttons__categories" id="todos"><button class="button active"><i class="fa-solid fa-caret-right"></i>Todos los productos</button></li>
+                            <li class="nav__list-categories buttons__categories" id="cerveza"><button class="button"><i class="fa-solid fa-caret-right"></i>Cervezas</button></li>
+                            <li class="nav__list-categories buttons__categories" id="ron"><button class="button"><i class="fa-solid fa-caret-right"></i>Rones</button></li>
+                            <li class="nav__list-categories buttons__categories" id="wisky"><button class="button"><i class="fa-solid fa-caret-right"></i>Wisky</button></li>
+                            <li class="nav__list-categories buttons__categories" id="vinos"><button class="button"><i class="fa-solid fa-caret-right"></i>Vinos</button></li>
+                        </ul>
+                        
                     </ul>
                 </nav>
                 <footer class="footer">
@@ -37,7 +40,7 @@
             </div>
             
             <div class="container__right">
-                <h2 class="container__right-title">Todos los Productos</h2>
+                <h2 class="container__right-title" id="titulo">Todos los Productos</h2>
                 <div class="container__cards" id="containerCards">
                     
     

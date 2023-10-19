@@ -10,6 +10,7 @@ fetch('/productos.json')
     });
 
 const divContainer = document.querySelector('#containerCards');
+const titulo = document.querySelector('#titulo');
 
 function cargarProductos(product) {
     const div = document.createElement("div");
@@ -25,5 +26,31 @@ function cargarProductos(product) {
             </div>
         </div>
     `;
-    divContainer.append(div);
+    divContainer.appendChild(div);
 }
+
+const botonesCategorias = document.querySelectorAll('.buttons__categories');
+
+botonesCategorias.forEach(boton => {
+    boton.addEventListener("click", (e) => {
+        divContainer.innerHTML = "";
+        titulo.innerHTML = e.currentTarget.textContent.trim();
+
+        botonesCategorias.forEach(otherButton => {
+            otherButton.querySelector('button').classList.remove("active");
+        });
+        e.currentTarget.querySelector('button').classList.add("active");
+
+        if (e.currentTarget.id !== "todos") {
+            const productsSelected = products.filter(product => product.categorie.toLowerCase() === e.currentTarget.id.toLowerCase());
+            productsSelected.forEach(product => {
+                cargarProductos(product);
+            });
+        } else {
+            titulo.innerHTML = "Todos los productos";
+            products.forEach(product => {
+                cargarProductos(product);
+            });
+        }
+    });
+});

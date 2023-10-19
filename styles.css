@@ -79,6 +79,7 @@ html {
     padding: 1rem;
     font-size: 1.45rem;
     transition: 0.2s ease;
+    width: 100%;
 }
 
 .button__close{
@@ -88,7 +89,6 @@ html {
 .button.active {
     background-color: var(--color-white);
     color: var(--color-blue-primary);
-    width: 100%;
     border-top-left-radius: 1rem;
     border-bottom-left-radius: 1rem;
     font-weight: bold;
