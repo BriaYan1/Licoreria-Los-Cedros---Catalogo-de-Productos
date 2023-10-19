@@ -10,7 +10,6 @@ fetch('/productos.json')
     });
 
 const divContainer = document.querySelector('#containerCards');
-const titulo = document.querySelector('#titulo');
 
 function cargarProductos(product) {
     const div = document.createElement("div");
@@ -30,6 +29,7 @@ function cargarProductos(product) {
 }
 
 const botonesCategorias = document.querySelectorAll('.buttons__categories');
+const titulo = document.querySelector('#titulo');
 
 botonesCategorias.forEach(boton => {
     boton.addEventListener("click", (e) => {
@@ -46,6 +46,9 @@ botonesCategorias.forEach(boton => {
             productsSelected.forEach(product => {
                 cargarProductos(product);
             });
+
+            /* compara si la categoria del json es lo mismo del id que esta en el html
+            es decir, si categoria en el json vinos es igual al id vinos, en minuscula*/
         } else {
             titulo.innerHTML = "Todos los productos";
             products.forEach(product => {
