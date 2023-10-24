@@ -1,0 +1,253 @@
+[
+    {
+        "title": "Cerveza Polar x Caja",
+        "price": 18,
+        "image": "/assets/productos/cervezas/polar-caja.png",
+        "categorie": "cerveza"
+    },
+
+    {
+        "title": "Cerveza Polar Lata",
+        "price": 1,
+        "image": "/assets/productos/cervezas/polar-lata.png",
+        "categorie": "cerveza"
+    },
+
+    {
+        "title": "Cerveza Polar Light Lata",
+        "price": 1,
+        "image": "/assets/productos/cervezas/polar-light-lata.jpg",
+        "categorie": "cerveza"
+    },
+
+    {
+        "title": "Cerveza Zulia x Caja",
+        "price": 18,
+        "image": "/assets/productos/cervezas/zulia-caja.png",
+        "categorie": "cerveza"
+    },
+
+    {
+        "title": "Cerveza Zulia Lata Sixpac",
+        "price": 5.49,
+        "image": "/assets/productos/cervezas/zulia-lata.png",
+        "categorie": "cerveza"
+    },
+
+    {
+        "title": "Ron Añejo Carúpano Reserva Especial de 0.750ml",
+        "price": 9.05,
+        "image": "/assets/productos/rones/añejo-carupano-reserva-6-especial-0.750.jpg",
+        "categorie": "ron"
+    },
+
+    {
+        "title": "Ron Añejo Carúpano Reserva Exclusiva de 0.750ml",
+        "price": 15,
+        "image": "/assets/productos/rones/añejo-reserva-exclusiva-carupano-750ml.jpg",
+        "categorie": "ron"
+    },
+
+    {
+        "title": "Ron Cacique 500 Golden 750ml",
+        "price": 18.50,
+        "image": "/assets/productos/rones/cacique-500-golden-750ml.jpg",
+        "categorie": "ron"
+    },
+
+    {
+        "title": "Ron Cacique Añejo 750ml",
+        "price": 10.10,
+        "image": "/assets/productos/rones/cacique-añejo-750ml.jpg",
+        "categorie": "ron"
+    },
+
+    {
+        "title": "Ron Cinco Estrellas Blanco",
+        "price": 5,
+        "image": "/assets/productos/rones/cinco-estrellas-blanco.jpg",
+        "categorie": "ron"
+    },
+
+    {
+        "title": "Ron Cinco Estrellas",
+        "price": 5.15,
+        "image": "/assets/productos/rones/cinco-estrellas.jpg",
+        "categorie": "ron"
+    },
+
+    {
+        "title": "Ron Diplomático Panas",
+        "price": 16.53,
+        "image": "/assets/productos/rones/diplomatico-panas.jpg",
+        "categorie": "ron"
+    },
+
+    {
+        "title": "Ron Diplomático Reserva Exclusiva",
+        "price": 27,
+        "image": "/assets/productos/rones/diplomatico-reserva-exclusiva.jpg",
+        "categorie": "ron"
+    },
+
+    {
+        "title": "Ron Extra Añejo Santa Teresa Gran Reserva Linaje 0.75lts",
+        "price": 22.90,
+        "image": "/assets/productos/rones/extra-añejo-santa-teresa-gran-reserva-linaje-0.75.jpg",
+        "categorie": "ron"
+    },
+
+    {
+        "title": "Ron  Santa Teresa Gran Reserva 0.70lts",
+        "price": 9,
+        "image": "/assets/productos/rones/gran-reserva-santa-teresa-0.70.jpg",
+        "categorie": "ron"
+    },
+
+    {
+        "title": "Sangría Caroreña 1.75lts",
+        "price": 9,
+        "image": "/assets/productos/vinos/caroreña-1.75.jpg",
+        "categorie": "vinos"
+    },
+
+    {
+        "title": "Sangría Caroreña Blanca 1.75lts",
+        "price": 9,
+        "image": "/assets/productos/vinos/caroreña-blanca-1.75.jpg",
+        "categorie": "vinos"
+    },
+
+    {
+        "title": "Sangría Caroreña Rosada 1.75lts",
+        "price": 9,
+        "image": "/assets/productos/vinos/caroreña-rosada-1.75.jpg",
+        "categorie": "vinos"
+    },
+
+    {
+        "title": "Vino Blanco Linda Mora Chardonay Chenin 0.75lts",
+        "price": 6,
+        "image": "/assets/productos/vinos/vino-blanco-linda-mora-chardonay-chenin-0.75.jpg",
+        "categorie": "vinos"
+    },
+
+    {
+        "title": "Vino Blanco Mia Freixenet 750ml",
+        "price": 10.40,
+        "image": "/assets/productos/vinos/vino-blanco-mia-freixenet-750.jpg",
+        "categorie": "vinos"
+    },
+
+    {
+        "title": "Vino Espumante Valdivieso Demi Sec 750ml",
+        "price": 14.20,
+        "image": "/assets/productos/vinos/vino-espumante-valdivieso-demi-sec-750.jpg",
+        "categorie": "vinos"
+    },
+
+    {
+        "title": "Vino Tinto Alpaca Cabernet Sauvignon 750ml",
+        "price": 5.80,
+        "image": "/assets/productos/vinos/vino-tinto-alpaca-cabernet-sauvignon-750.jpg",
+        "categorie": "vinos"
+    },
+
+    {
+        "title": "Vino Tinto Alpaca Merlot 750ml",
+        "price": 5.80,
+        "image": "/assets/productos/vinos/vino-tinto-alpaca-merlot-750.jpg",
+        "categorie": "vinos"
+    },
+
+    {
+        "title": "Vino Tinto Tierra Del Fuego 750ml",
+        "price": 5,
+        "image": "/assets/productos/vinos/vino-tinto-tierra-del-fuego-750.jpg",
+        "categorie": "vinos"
+    },
+
+    {
+        "title": "Vino Valdivieso Sauvignon Blanc 0.75lts ",
+        "price": 12.90,
+        "image": "/assets/productos/vinos/vino-valdivieso-sauvignon-blanc-0.75.jpg",
+        "categorie": "vinos"
+    },
+
+    {
+        "title": "Wisky Black & White 750ml ",
+        "price": 15.40,
+        "image": "/assets/productos/wiskies/black-white-750.jpg",
+        "categorie": "wisky"
+    },
+
+    {
+        "title": "Wisky Buchanans Deluxe 12 años 0.75lts ",
+        "price": 30.50,
+        "image": "/assets/productos/wiskies/buchanans-deluxe-escoces-12años-0.75.jpg",
+        "categorie": "wisky"
+    },
+
+    {
+        "title": "Wisky Buchanans Red Seal 750ml ",
+        "price": 208.80,
+        "image": "/assets/productos/wiskies/buchanans-red-seal-750.jpg",
+        "categorie": "wisky"
+    },
+
+    {
+        "title": "Wisky Escoceés Highland Queen ",
+        "price": 17.40,
+        "image": "/assets/productos/wiskies/escoces-highland-queen-750.jpg",
+        "categorie": "wisky"
+    },
+
+    {
+        "title": "Wisky Escoceés Willian Lawson's 750ml",
+        "price": 15.90,
+        "image": "/assets/productos/wiskies/escoces-william-lawsons-750.jpg",
+        "categorie": "wisky"
+    },
+
+    {
+        "title": "Wisky Grand Old Parr 750ml",
+        "price": 30.70,
+        "image": "/assets/productos/wiskies/grand-old-parr-750.jpg",
+        "categorie": "wisky"
+    },
+
+    {
+        "title": "Wisky Grant's Triple Wood 750ml",
+        "price": 30.60,
+        "image": "/assets/productos/wiskies/grants-triple-wood-750.jpg",
+        "categorie": "wisky"
+    },
+
+    {
+        "title": "Wisky Jack Daniels 750ml",
+        "price": 56.30,
+        "image": "/assets/productos/wiskies/jack-daniels-750.jpg",
+        "categorie": "wisky"
+    },
+
+    {
+        "title": "Wisky Jhonnie Walker Blue Label 750ml",
+        "price": 243.60,
+        "image": "/assets/productos/wiskies/jhonnie-walker-blue-label-750.jpg",
+        "categorie": "wisky"
+    },
+
+    {
+        "title": "Wisky Jhonnie Walker Black Label 750ml",
+        "price": 30.50,
+        "image": "/assets/productos/wiskies/johnnie-walker-black-label-750.jpg",
+        "categorie": "wisky"
+    },
+
+    {
+        "title": "Wisky Jhonnie Walker Black Label Sherry 700ml",
+        "price": 35,
+        "image": "/assets/productos/wiskies/johnnie-walker-black-label-sherry-700.jpg",
+        "categorie": "wisky"
+    }
+]
