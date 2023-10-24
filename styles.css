@@ -21,6 +21,37 @@ html {
     font-family: sans-serif;
 }
 
+body{
+    position: relative;
+}
+
+.spinner {
+    border: .5rem solid rgba(0, 0, 0, 0.1);
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    border-left-color: var(--color-blue-primary);
+    animation: spin 1s ease infinite;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.spinner.visible {
+    display: block;
+}
+
 .main{
     background-color: var(--color-blue-primary);
 }

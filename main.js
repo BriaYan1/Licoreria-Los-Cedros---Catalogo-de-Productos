@@ -1,3 +1,6 @@
+const spinner = document.querySelector('.spinner');
+spinner.classList.add('visible'); // Mostrar el spinner al comienzo
+
 let products = [];
 
 fetch('/productos.json')
@@ -7,6 +10,9 @@ fetch('/productos.json')
         products.forEach(product => {
             cargarProductos(product);
         });
+    })
+    .finally(() => {
+        spinner.classList.remove('visible'); // Ocultar el spinner al completar la carga de productos
     });
 
 const divContainer = document.querySelector('#containerCards');
