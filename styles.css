@@ -145,7 +145,7 @@ html {
 .container__cards{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 0.8rem;
+    gap: 1rem;
 }
 
 .container__right-title{
