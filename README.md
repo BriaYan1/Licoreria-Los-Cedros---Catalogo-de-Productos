@@ -18,8 +18,15 @@ Este sitio web permite a la empresa dar a conocer los diferentes tipos de licore
 <ul>
   <li>Hay un loader el cual se cierra cuando está cargada la página.</li>
   <li>Las imágenes, el precio, la descripción están en un archivo json, el cual se llama desde JavaScript usando fetch</li>
+   
   ![fetch](https://github.com/BriaYan1/Licoreria-Los-Cedros---Catalogo-de-Productos/assets/130705096/500d9d49-1942-43fd-a002-539e979df274)
-  <li>JAVASCRIPT</li>
+  
+  <li>Al nevegar por las diferentes categorías de licores se va a mostrar unicamente los licores de la misma, además el titulo " Todos los Productos " también cambiará según la categoría seleccionada.</li>
+
+   ![responsive](https://github.com/BriaYan1/Licoreria-Los-Cedros---Catalogo-de-Productos/assets/130705096/d125cf04-adae-49ed-8818-9d3dfab9186b)
+
+  
+  <li>Página web responsive.</li>
 </ul>
 
 
